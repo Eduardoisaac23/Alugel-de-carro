@@ -7,14 +7,15 @@ public class RentalServices {
 
 	private Double pricePerHour;
 	private Double pricePerDay;
-	private BrazilTexService texService;
+	private TexSrevice texService;
 	
 	public RentalServices() {
 		
 	}
 
-	public RentalServices(Double pricePerHour, Double pricePerDay, BrazilTexService texService) {
+	public RentalServices(Double pricePerHour, Double pricePerDay, TexSrevice texService) {
 
+		super();
 		this.pricePerHour = pricePerHour;
 		this.pricePerDay = pricePerDay;
 		this.texService = texService;
